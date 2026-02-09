@@ -80,6 +80,8 @@ WSGI_APPLICATION = 'djangocrud.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+WSGI_APPLICATION = 'djangocrud.wsgi.application'
+
 DATABASES = {
     'default': dj_database_url.config(
         env='DATABASE_PUBLIC_URL',
